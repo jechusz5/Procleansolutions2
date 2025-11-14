@@ -705,6 +705,11 @@ select#additionalServices:focus {
   margin-bottom: 1rem;
   color: #fff;
 }
+.giftcards h5{
+  color: white;
+  margin-top: 50px;
+  font-size: 20px;
+}
 
 .giftcards p {
   font-size: 1.1rem;
@@ -1004,3 +1009,5 @@ select#additionalServices:focus {
     margin-bottom: 1.5rem !important;
   }
 }
+
+
