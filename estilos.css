@@ -951,3 +951,56 @@ select#additionalServices:focus {
   line-height:1.25rem;
   cursor:pointer;
   margin-top: 20px;}
+
+
+
+  /* FIX para móviles */
+@media (max-width: 768px) {
+
+  /* Centrar contenedores */
+  .section-container,
+  .card,
+  .service-card,
+  .additional-services,
+  .services-section {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 1rem !important;
+  }
+
+  /* Títulos grandes como “Our Services” */
+  h1, .title-large {
+    font-size: 2rem !important;
+    text-align: center !important;
+    line-height: 2.3rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Ajuste del texto “Additional Services” */
+  .additional-title {
+    text-align: center !important;
+    padding-left: 0 !important;
+  }
+
+  /* Select centrado */
+  select,
+  .custom-select {
+    width: 100% !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  /* Botón debajo del select */
+  .select-btn {
+    width: 100% !important;
+    margin-top: 1rem !important;
+    display: block !important;
+  }
+
+  /* Tarjetas de servicios */
+  .service-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 1.5rem !important;
+  }
+}
